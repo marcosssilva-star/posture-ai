@@ -1,0 +1,19 @@
+POSTURE AI - PROTOTIPO ANDROID 0.2
+
+ARQUIVOS
+- index.html: aplicativo web
+- manifest.webmanifest: metadados básicos de instalação
+
+COMO HOSPEDAR NO GITHUB PAGES
+1. Extraia este ZIP.
+2. Envie os arquivos extraídos para a raiz do repositório posture-ai.
+3. No GitHub, abra Settings > Pages.
+4. Em Build and deployment, escolha Deploy from a branch.
+5. Selecione a branch main e a pasta /(root), depois Save.
+6. Aguarde a publicação e abra o endereço indicado pelo GitHub Pages.
+
+OBSERVAÇÕES
+- Requer conexão com a internet para carregar MediaPipe e o modelo.
+- Use HTTPS para funcionamento adequado no navegador móvel.
+- Esta versão detecta pontos corporais; não calcula ângulos nem faz diagnóstico.
+- As imagens são processadas no navegador e não são enviadas automaticamente a um servidor.
